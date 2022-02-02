@@ -1,5 +1,5 @@
 import React from 'react'
-import "./JumboSection.css"
+import "../Jumbo Section/JumboSection.css";
 
 const JumboSection = () =>  {
    

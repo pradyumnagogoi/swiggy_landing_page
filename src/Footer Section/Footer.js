@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/heading-has-content */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import "./Footer.css"
 
@@ -24,9 +26,9 @@ const Footer = () =>  {
             <h3>Contact</h3>
             <nav>
               <ul>
-                <li><a href=""> Help &amp; Support</a></li>
-                <li><a href="">Partner with us</a></li>
-                <li><a href="">Ride with us</a></li>
+                <li><a href="#"> Help &amp; Support</a></li>
+                <li><a href="#">Partner with us</a></li>
+                <li><a href="#">Ride with us</a></li>
               </ul>
             </nav>
             </div>
@@ -34,12 +36,12 @@ const Footer = () =>  {
             <h3>Legal</h3>
             <nav>
               <ul>
-                <li><a href="">Terms &amp; Conditions</a></li>
-                <li><a href="">Refund &amp; Cancellation</a></li>
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Cookie Policy</a></li>
-                <li><a href="">Offer Terms</a></li>
-                <li><a href="">Phishing &amp; Fraud</a></li>
+                <li><a href="#">Terms &amp; Conditions</a></li>
+                <li><a href="#">Refund &amp; Cancellation</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Offer Terms</a></li>
+                <li><a href="#">Phishing &amp; Fraud</a></li>
               </ul>
             </nav>
             </div>
@@ -156,16 +158,16 @@ const Footer = () =>  {
             <div><img className="bottom-logo" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_284/Logo_f5xzza" alt="swiggy-logo" /></div>
             <div class="_2BWW_">© 2021 Swiggy- PRADYUMNA GOGOI</div>
             <div class="_2-f1I">
-              <a class="_1Az3W" href="https://www.facebook.com/swiggy.in" alt="facebook" target="_blank">
+              <a class="_1Az3W" href="https://www.facebook.com/swiggy.in" alt="facebook" target="blank">
                 <img class="" width="24" height="24" alt="" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_48,h_48/icon-facebook_tfqsuc" />
               </a>
-              <a class="_1Az3W" href="https://pinterest.com/swiggyindia" alt="pintrest" target="_blank">
+              <a class="_1Az3W" href="https://pinterest.com/swiggyindia" alt="pintrest" target="blank">
                 <img class="" width="24" height="24" alt="" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_48,h_48/icon-pinterest_kmz2wd" />
               </a>
-              <a class="_1Az3W" href="https://instagram.com/swiggyindia/" alt="instagram" target="_blank">
+              <a class="_1Az3W" href="https://instagram.com/swiggyindia/" alt="instagram" target="blank">
                 <img class="" width="24" height="24" alt="" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_48,h_48/icon-instagram_b7nubh" />
               </a>
-              <a class="_1Az3W" href="https://twitter.com/swiggy_in" alt="twitter" target="_blank">
+              <a class="_1Az3W" href="https://twitter.com/swiggy_in" alt="twitter" target="blank">
                 <img class="" width="24" height="24" alt="" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_48,h_48/icon-twitter_gtq8dv" />
               </a>
             </div>
