@@ -1,0 +1,43 @@
+.features {
+  background: #2b1e16;
+  padding-bottom: 60px;
+}
+
+.features .container {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.feature {
+  text-align: center;
+  padding-top: 80px;
+}
+
+@media (min-width: 900px) {
+  .features .container {
+    justify-content: space-between;
+  }
+
+  .feature {
+    padding-top: 0px;
+  }
+}
+
+.feature img {
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+.feature h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.feature p {
+  font-size: 15px;
+  width: 260px;
+  color: #e0cbc1;
+}

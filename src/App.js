@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import './App.css';
+import Features from './Features Section/Features';
+import Footer from './Footer Section/Footer';
+import JumboSection from './Jumbo Section/JumboSection';
+import Resturent from './Resturent in your pocket/Resturent'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <JumboSection />
+    <Features />
+    <Resturent />
+    <Footer />
     </div>
   );
 }
 
 export default App;
+
